@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Karla';
+}
+
+p {
+    font-family: 'Karla';
+    margin: 5px 0 40px 0;
+    font-size: 16px;
+}
+
+body {
+    position: absolute;
+    background:  #ffffff;
+
+    height: 100%;
+    width: 100%;
+
+    font-size: 16px;
+
+    font-family: 'Karla' sans-serif;
+    font-weight: 400;
+}
+
+/*--------HEADER----------*/
+
+header {
+    background: hsl(0, 0%, 98%);
+    position: relative;
+
+    font-family: 'DM Serif Display' sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    z-index: 500;
+
+    height: 70px;
+    width: 100%;
+}
+
+header nav {
+    display: flex;
+    flex: 1;
+
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 15px;
+}
+
+header img.logo {
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+header ul.pages {
+    display: flex;
+    text-transform: uppercase;
+    margin-right: 13%;
+}
+
+header ul.pages li {
+    margin: 10px;
+    color: hsl(273, 4%, 51%);
+}
+
+header ul.pages li a {
+    border: 2px solid hsl(270, 9%, 17%);
+    padding: 10px 25px;
+    color: hsl(270, 9%, 17%);
+}
+
+/*---------Container 1 --------------*/
+
+main section.main {
+    background: hsl(256, 26%, 20%);
+    position: relative;
+
+    display: flex;
+    flex: 1;
+    height: 500px;
+
+    padding: 60px;
+    color: hsl(0, 0%, 98%);
+}
+
+main section.main div.content hr{
+    width: 30%;
+    margin: 15px 0 35px 0;
+}
+
+main section.main div.content h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+
+main section.main div.content a {
+    color: hsl(0, 0%, 98%);
+    border: 2px solid hsl(0, 0%, 98%);
+
+    text-transform: uppercase;
+    padding: 10px 25px;
+    font-size: 13px;
+}
+
+main section.main img.imageMain {
+    width: 500px;
+    height: 500px;
+    margin-left: 60px;
+}
+
+main section.main img.rightMain {
+    position: absolute;
+    right: 0;
+    top: -80px;
+}
+
+/*--------- IMAGE LEFT --------------*/
+
+main img.left {
+    position: absolute;
+    top: 400px;
+    left: -90px;
+}
+
+/*---------Container 2 --------------*/
+
+main section.second {
+    position: relative;
+
+    display: flex;
+    flex: 1;
+    height: 500px;
+
+    margin-top: 250px;
+    padding: 60px;
+
+    color: hsl(270, 9%, 17%);
+
+    font-family: 'Karla' sans-serif;
+}
+
+main section.second div.content hr{
+    width: 15%;
+    margin: 15px 0 35px 0;
+}
+
+main section.second div.content h2 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+main section.second div.content div.card {
+    display: flex;
+    flex: 1;
+
+    margin: 50px 0;  
+}
+
+main section.second div.content div.card div.infor {
+    margin-right: 50px;
+}
+
+main section.second div.content div.card img.iconInfor {
+    margin: 15px;
+}
+
+main section.second div.content div.card h4 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+main section.second div.content div.card p {
+    color: hsl(273, 4%, 51%);
+}
+
+/*---------Container 3 --------------*/
+
+main section.tree {
+    padding: 60px;
+    padding-right: 150px;
+    margin-top: 100px;
+}
+
+main section.tree div.content {
+    display: flex;
+    flex: 1;
+
+    position: relative;
+    height: 250px;
+
+    align-items: center;
+    background: hsl(256, 26%, 20%);
+}
+
+main section.tree div.content h4 {
+    font-weight: 600;
+    font-size: 60px;
+    margin-left: 100px;
+    color: hsl(0, 0%, 98%);
+}
+
+main section.tree div.content a {
+    color: hsl(0, 0%, 98%);
+    border: 2px solid hsl(0, 0%, 98%);
+
+    text-transform: uppercase;
+    padding: 10px 25px;
+    font-size: 13px;
+
+    position: absolute;
+
+    right: 85px;
+    font-weight: 400;
+
+    z-index: 500;
+}
+
+main section.tree div.content img {
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+/*--------- FOOTER --------------*/
+
+footer {
+    background: #fafafa;
+    padding: 0 0 60px 60px;
+    padding-right: 150px;
+}
+
+footer img.imgfooter {
+    position: absolute;
+    left: 0;
+}
+
+footer div section.head {
+    display: flex;
+    flex: 1;
+
+    padding: 80px 0 10px;
+
+    height: 50px;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div hr {
+    margin: 25px 0;
+}
+
+footer div section.head ul {
+    display: flex;
+}
+
+footer div section.head ul li {
+    margin: 10px;
+}
+
+footer div.informacions section{
+    display: flex;
+    flex: 1;
+}
+
+footer div.informacions section div h6 {
+    text-transform: uppercase;
+    margin: 15px 200px 30px 0;
+
+    font-size: 14px;
+
+    font-family: 'Karla';
+
+    color: hsl(273, 4%, 51%);
+    font-weight: 700;
+}
+
+footer div.informacions section > div ul {
+    margin: 0 80px 0 0;
+}
+
+footer div.informacions section > div ul li {
+    margin-top: 15px;
+}
+
+footer div.informacions section > div ul li a {
+    color: hsl(270, 9%, 17%);
+    font-weight: 600;
+    
+    font-size: 14px;
+
+    text-transform: uppercase;
+}
