@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Todo app</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="theme.css">
+  <style>
+    .attribution { font-size: 11px; text-align: center; margin-top: 10px; color: rgb(151, 150, 150);}
+    .attribution a { color: hsl(231, 3%, 55%); }
+  </style>
+</head>
+<body class="dark">
+  <div id="imgTop" class="imgTop dark"></div>
+  <main>
+
+    <div class="top">
+      <h1>Todo</h1>
+      <img src="./images/icon-sun.svg" alt="theme" class="theme">
+    </div>
+  
+    <form>
+      <div class="circleCheck">
+        <img src="./images/icon-check.svg" alt="checked" class="imgCheck">
+      </div>
+      <input type="text" id="inputToDo" placeholder="Create a new todo..." class="inputToDo">
+      <img src="/todo-app-main/images/icons8-mais.svg" alt="add" class="add">
+    </form>
+  
+    <section class="containerList">
+      <ul id="list" class="list dark">
+      </ul>
+      <div class="bottom"> 
+        <p class="qtdItems">0 items left</p>        
+        
+        <div class="filters">
+          <a href="#" class="all">All</a>
+          <a href="#" class="active">Active</a>
+          <a href="#" class="completed">Completed</a>
+        </div>
+        
+        <a href="#" class="clearCheck">Clear Completed</a>
+      
+      </div>
+    </section>
+    <small>Drag and drop to reorder list</small>
+  
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/AliceSales">Alice Sales</a>.
+  </div>
+
+  <script src="./scripts/main.js"></script>
+</body>
+</html>

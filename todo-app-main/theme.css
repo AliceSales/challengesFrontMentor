@@ -1,0 +1,114 @@
+div.dark {
+    background: url('./images/bg-desktop-dark.jpg') no-repeat;
+}
+
+body.dark {
+    background: hsl(235, 24%, 19%);
+}
+
+main section.containerList div.bottom a.clearCheck:hover {
+    color: hsl(0, 0%, 98%);
+}
+
+main form {
+    background: hsl(235, 24%, 19%);
+}
+
+div.circleCheck {
+    border-color:  hsl(237, 14%, 26%);
+}
+
+div.circleCheck.checked {
+    border: 1px solid hsl(237, 14%, 26%);
+}
+
+main form input {
+    color:hsl(234, 11%, 52%);
+}
+
+main form img.add {
+    color: hsl(236, 33%, 92%);
+}
+
+main section.containerList {
+    background: hsl(235, 24%, 19%);
+    box-shadow: 0px 5px 20px 0px hsl(235, 21%, 11%);
+}
+
+main section.containerList ul li.line {
+    color:hsl(234, 39%, 85%);
+    border-bottom: 1px solid hsl(237, 14%, 26%);
+}
+
+main section.containerList div.bottom {
+    border-top: 1px solid hsl(237, 14%, 26%);
+}
+
+main section.containerList div.bottom p.qtdItems {
+    color: hsl(234, 11%, 52%);
+}
+
+main section.containerList div.bottom div.filters a {
+    color: hsl(234, 11%, 52%);
+}
+
+main section.containerList div.bottom div.filters a:hover {
+    color: hsl(0, 0%, 98%);
+}
+
+main section.containerList div.bottom a.clearCheck {
+    color: hsl(234, 11%, 52%);
+}
+
+
+/*-------------LIGHT---------*/
+
+div.light {
+    background: url('./images/bg-desktop-light.jpg') no-repeat;
+}
+
+body.light {
+    background: hsl(0, 0%, 98%);
+}
+
+main.light form {
+    background: hsl(236, 33%, 92%);
+}
+
+main.light form input {
+    color:hsl(236, 9%, 61%);
+}
+
+main.light section.containerList {
+    background:hsl(236, 33%, 92%);
+    box-shadow: 0px 5px 20px 0px hsl(236, 9%, 61%);
+}
+
+main.light section.containerList ul li.line {
+    color:hsl(235, 19%, 35%);
+    border-bottom: 1px solid hsl(233, 11%, 84%);
+}
+
+main.light section.containerList div.bottom {
+    border-top: 1px solid  hsl(233, 11%, 84%);
+}
+
+main.light section.containerList div.bottom p.qtdItems {
+    color:hsl(236, 9%, 61%);
+}
+
+main.light section.containerList div.bottom div.filters a {
+    color: hsl(236, 9%, 61%);
+}
+
+main.light section.containerList div.bottom div.filters a:hover {
+    color: hsl(220, 98%, 61%);
+}
+
+main.light section.containerList div.bottom a.clearCheck {
+    color: hsl(236, 9%, 61%);
+}
+
+main.light section.containerList div.bottom a.clearCheck:hover {
+    color: hsl(220, 98%, 61%);
+}

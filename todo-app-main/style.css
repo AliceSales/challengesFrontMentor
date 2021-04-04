@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans';
+}
+
+body {
+    font-size: 18px;
+}
+
+p, a {
+    cursor: pointer;
+}
+
+div.imgTop {
+    background: url('images/bg-desktop-dark.jpg');
+    width: 100%;
+    height: 50vh;
+}
+
+main {
+    display: flex;
+    flex: 1;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+main div.top {
+    display: flex;
+    width: 40%;
+    height: 50px;
+    
+    background: transparent;
+
+    justify-content: space-between;
+    margin-top: -250px;
+
+    padding: 5px;
+}
+
+main div.top h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: hsl(236, 33%, 92%);
+    letter-spacing: 10px;
+}
+
+main div.top img.theme {
+    cursor: pointer;
+}
+
+main form {
+    display: flex;
+    background: hsl(235, 24%, 19%);
+
+    margin-top: 20px;
+    
+    align-items: center;
+
+    width: 40%;
+    height: 40px;
+    min-width: 70vh;
+
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+div.circleCheck {
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 50%;
+
+    margin: 0 10px 0 15px;
+
+    width: 20px;
+    height: 20px;
+}
+
+div.circleCheck img {
+    visibility: hidden;
+}
+
+div.circleCheck.checked {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background-position: center;
+    background-image: linear-gradient(to right, hsl(192, 100%, 67%) , hsl(280, 87%, 65%));
+}
+
+div.circleCheck:hover {
+    border-top: 1px solid hsl(192, 100%, 67%);
+    border-left: 1px solid hsl(192, 100%, 67%);
+    border-right: 1px solid hsl(280, 87%, 65%);
+    border-bottom:1px solid hsl(280, 87%, 65%);
+}
+
+div.circleCheck img.checked {
+    visibility: visible;
+}
+
+main form input {
+    background: transparent;
+    border: none;
+    outline: none;
+    
+    width: 82%;
+    height: 80%;
+
+    margin-right: 3px;
+
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    color:hsl(234, 11%, 52%);
+}
+
+main form img.add {
+    margin-right: 5px;
+    color: hsl(236, 33%, 92%);
+}
+
+main section.containerList {
+    position: relative;
+    background: hsl(235, 24%, 19%);
+
+    margin-top: 20px;
+    
+    width: 40%;
+    height: auto;
+    min-height: 50vh;
+    min-width: 70vh;
+    border-radius: 5px;
+
+    box-shadow: 0px 5px 20px 0px hsl(235, 21%, 11%);
+}
+
+main section.containerList ul.list {
+    padding-bottom: 39px;
+}
+
+main section.containerList ul li.line {
+    display: flex;
+
+    width: 100%;
+    height: 41px;
+
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    list-style: none;
+    color:hsl(234, 39%, 85%);
+
+    border-bottom: 1px solid hsl(237, 14%, 26%);
+
+    justify-content: space-between;
+    
+    align-items: center;
+    cursor: pointer;
+}
+
+main section.containerList ul li.line section.sectionLine {
+    display: flex;
+    align-items: center;
+}
+
+
+main section.containerList ul li.line img.exclude {
+    visibility: hidden;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+main section.containerList ul li.line:hover img.exclude {
+    visibility: visible;
+}
+
+main section.containerList div.bottom {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 40px;
+
+    bottom: 0;
+
+    border-top: 1px solid hsl(237, 14%, 26%);
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+main section.containerList div.bottom p.qtdItems {
+    color: hsl(234, 11%, 52%);
+    width: 25%;
+    cursor: default;
+
+    padding-left: 20px;
+}
+
+main section.containerList div.bottom div.filters {
+    display: flex;
+
+    justify-content: center;
+    width: 50%;
+}
+
+main section.containerList div.bottom div.filters a {
+    text-decoration: none;
+    color: hsl(234, 11%, 52%);
+
+    margin-right: 15px;
+}
+
+main section.containerList div.bottom div.filters a:hover {
+    color: hsl(0, 0%, 98%);
+}
+
+main section.containerList div.bottom a.clearCheck {
+    text-decoration: none;
+    color: hsl(234, 11%, 52%);
+    width: 25%;
+
+    padding-right: 20px;
+}
+
+main section.containerList div.bottom a.clearCheck:hover {
+    color: hsl(0, 0%, 98%);
+}
+
+main small {
+    margin-top: 50px;
+    font-size: 13px;
+    color: hsl(234, 11%, 52%);
+}
+
+/*LIGHT THEME*/
